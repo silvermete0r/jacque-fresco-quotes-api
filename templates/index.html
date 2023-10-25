@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacque Fresco Quotes API Documentation</title>
+    <link rel="icon" type="image/x-icon" href="https://static.vecteezy.com/system/resources/thumbnails/009/362/964/small/document-file-icon-paper-doc-sign-free-png.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">🧐 Jacque Fresco Quotes API</a>
+    </nav>
+
+    <div class="container mt-4">
+        <h2>
+            API Documentation
+            <a href="https://github.com/silvermete0r/jacque-fresco-quotes-api">
+                <img src="https://img.shields.io/github/stars/silvermete0r/jacque-fresco-quotes-api?style=social">
+            </a> 
+            <a href="https://github.com/silvermete0r/jacque-fresco-quotes-api">
+                <img src="https://img.shields.io/github/forks/silvermete0r/jacque-fresco-quotes-api?style=plastic">
+            </a> 
+            <a href="https://github.com/silvermete0r/jacque-fresco-quotes-api">
+                <img src="https://img.shields.io/github/license/silvermete0r/jacque-fresco-quotes-api?style=plastic">
+            </a>
+        </h2>
+        <hr>
+
+        <h4>🎲 Get a Random Quote</h4>
+        <p>Endpoint: <code>/quotes</code> and <code>/quotes/random</code> <small>(same function)</small></p>
+        <p>Method: GET</p>
+        <p>Usage: Retrieve a random quote.</p>
+        <p>Example URL: <code>https://jacque-fresco-api.onrender.com/quotes?api_key=your-secret-key</code></p>
+        <hr>
+
+        <h4>🆔 Get a Specific Quote by ID</h4>
+        <p>Endpoint: <code>/quotes/{id}</code> <small>(from 1 to 50)</small></p>
+        <p>Method: GET</p>
+        <p>Usage: Retrieve a specific quote by ID.</p>
+        <p>Example URL: <code>https://jacque-fresco-api.onrender.com/quotes/2?api_key=your-secret-key</code></p>
+        <hr>
+
+        <h4>🔎 Search for Quotes by Topic (Tag)</h4>
+        <p>Endpoint: <code>/quotes/search</code></p>
+        <p>Method: GET</p>
+        <p>Usage: Search for quotes by a specific topic (tag).</p>
+        <p>Example URL: <code>https://jacque-fresco-api.onrender.com/quotes/search?query=future&api_key=your-secret-key</code></p>
+    </div>
+
+    <footer class="bg-dark text-white p-3 mt-4">
+        <div class="container">
+            <p class="text-center mb-0">© 2023 <a href="https://github.com/silvermete0r" style="text-decoration: none; color: rgb(240, 80, 240);">Grembim</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
